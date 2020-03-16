@@ -13,8 +13,11 @@ Le but est aussi de recevoir des contributions et de discuter de ces paramètres
 
 ## Vie privée et sécurité
 
+### Gégoogliser Firefox
 
 Tapez Google dans la barre de recherche et tout retirer (passez à false ou supprimez les liens).
+
+### Désactiver le Safe Browsing
 
 browser.safebrowsing.malware.enabled = false : désactive le safebrowsing, fourni par Google.
 
@@ -26,6 +29,8 @@ browser.safebrowsing.downloads.remote.enabled = false : désactive la mise à jo
 
 Safebrowing : vérifiez que les valeurs *.enable sont sur "false" et videz les champs avec des liens Google ou Mozilla.
 
+### Gestion du referer
+
 network.http.referer.trimmingPolicy = 2 : réduit la taille du referer (info donnant le lien d'où vous venez).
 
 network.http.referer.XOriginTrimmingPolicy = 2 : réduit la taille du referer.
@@ -35,6 +40,8 @@ network.http.referer.XOriginPolicy = 2 : n'envoie un referer que si vous venez d
 network.http.referer.spoofSource = true : envoie comme referer le site que vous visitez, si vous visitez mozilla.org, Firefox enverra comme referer mozilla.org.
 
 privacy.firstparty.isolate = true : isole chacun de vos onglets.
+
+### Désactiver le préchargement
 
 network.dns.disablePrefetch = true : désactive le préchargement DNS des liens.
 
@@ -48,6 +55,8 @@ browser.urlbar.speculativeConnect.enabled = false : désactive le préchargement
 
 network.http.speculative-parallel-limit = 0 : désactive le préchargement.
 
+### Désactiver la télémétrie
+
 app.normandy.enabled = false : désactive la télémétrie.
 
 app.normandy.first_run = false : désactive la télémétrie.
@@ -57,6 +66,8 @@ app.normandy.api_url = blanc : désactive la télémétrie.
 beacon.enabled = false : désactive la télémétrie.
 
 network.IDN_show_punycode = true : désactive le punycode.
+
+### Désactiver la géolocalisation
 
 geo.enabled = false : désactive la géolocalisation.
 
@@ -127,6 +138,12 @@ Les notifications push permettent aux sites de vous envoyer des notifications m�
    dom.push.enabled = false
 
    dom.push.serverURL = blanc 
+   
+   
+   
+   
+privacy.firstparty.isolate = true : isole chacun de vos onglets.
+
 
 
 ## Performances
