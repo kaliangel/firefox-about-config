@@ -13,7 +13,7 @@ Le but est aussi de recevoir des contributions et de discuter de ces paramètres
 
 ## Vie privée et sécurité
 
-### Gégoogliser Firefox
+### Dégoogliser Firefox
 
 Tapez Google dans la barre de recherche et tout retirer (passez à false ou supprimez les liens).
 
@@ -65,6 +65,8 @@ app.normandy.api_url = blanc : désactive la télémétrie.
 
 beacon.enabled = false : désactive la télémétrie.
 
+
+
 network.IDN_show_punycode = true : désactive le punycode.
 
 ### Désactiver la géolocalisation
@@ -81,19 +83,28 @@ browser.search.geoSpecificDefaults.url = blanc
 
 browser.search.geoip.url = blanc : désactive la géolocalisation.
 
-Tapez "telemetry" dans la barre de recherche et désactivez tout ce que vous pouvez. Supprimez aussi les différents liens.
+### Désactiver les notifications push
 
-toolkit.telemetry.cachedClientID = blanc : supprime votre identifiant pour la télémétrie.
 
-dom.ipc.plugins.flash.subprocess.crashreporter.enabled = false : désactive la télémétrie.
+Les notifications push permettent aux sites de vous envoyer des notifications même s'ils ne sont pas ouverts, si vous les y autorisez. Pour ce faire Mozilla utilises ses serveurs. Cela peut poser des problèmes de confidentialité. Voici comment le désactiver :
 
-toolkit.crashreporter.infoURL = blanc : désactive la télémétrie.
 
-Faites pareil avec "reporting".
+
+   dom.push.connection.enabled = false
+
+
+
+   dom.push.enabled = false
+
+
+
+   dom.push.serverURL = blanc 
+   
+### Autres 
 
 security.OCSP.enabled = 0 : désactive l'OCSP.
 
-browser.cache.offline.enable = false : désactive le cache hors=ligne, c'est pas terrible d'autoriser les sites à enregistrer tout et n'importe quoi sur votre ordi.
+browser.cache.offline.enable = false : désactive le cache hors-ligne, c'est pas terrible d'autoriser les sites à enregistrer tout et n'importe quoi sur votre ordi.
 
 browser.cache.offline.capacity = 0 : désactive le cache hors=ligne.
 
@@ -130,17 +141,6 @@ browser.startup.homepage_override.mstone = ignore
 browser.startup.homepage_override.buildID = blanc
 
 browser.newtabpage.activity-stream.feeds.snippets = false
-
-Les notifications push permettent aux sites de vous envoyer des notifications même s'ils ne sont pas ouverts, si vous les y autorisez. Pour ce faire Mozilla utilises ses serveurs. Cela peut poser des problèmes de confidentialité. Voici comment le désactiver :
-
-   dom.push.connection.enabled = false
-
-   dom.push.enabled = false
-
-   dom.push.serverURL = blanc 
-   
-   
-   
    
 privacy.firstparty.isolate = true : isole chacun de vos onglets.
 
@@ -206,7 +206,3 @@ https://theprivacyguide1.github.io/about_config.html
 https://www.ghacks.net/overview-firefox-aboutconfig-security-privacy-preferences/
 
 Merci à eux !
-
-
-
-Écrit par Kaliangel.
