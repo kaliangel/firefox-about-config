@@ -170,7 +170,7 @@ media.peerconnection.enabled = false : désactive WebRTC qui peut poser des prob
 
 
 
-Pratique
+## Pratique
 
 
 browser.tabs.closeWindowWithLastTab = false : désactive la fermeture de Firefox lorsque vous fermez le dernier onglet.
@@ -181,7 +181,9 @@ security.secure_connection_icon_color_gray = false : remet le cadenas de la barr
 
 accessibility.blockautorefresh = true : bloque le rafraichissement automatique de la page.
 
-dom.event.contextmenu.enabled = false : empêche les sites de bloquer l'utilisation du clic-droit.
+dom.event.contextmenu.enabled = false : empêche les sites de bloquer l'utilisation du clic-droit. 
+
+browser.tabs.allowTabDetach = false : désactive la possibilité de déplacer un onglet vers une nouvelle fenêtre en tirant dessus.
 
 
 # Sources
@@ -205,4 +207,4 @@ https://theprivacyguide1.github.io/about_config.html
 
 https://www.ghacks.net/overview-firefox-aboutconfig-security-privacy-preferences/
 
-Merci à eux !
+***Merci à eux !***
