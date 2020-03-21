@@ -60,6 +60,15 @@ Safebrowing : vérifiez que les valeurs `*.enable` sont sur **false** et videz l
 
 ### Désactiver la télémétrie
 
+Tapez `telemetry` dans la barre de recherche, supprimez tous les liens et passez tout à `false`.
+Faîtes pareil en tapant `report` (mais ne touchez pas aux liens de `extensions.abuseReport.amoDetailsURL`, `extensions.abuseReport.url` et `extensions.webcompat-reporter.newIssueEndpoint`)
+
+`toolkit.telemetry.cachedClientID` **= blanc** : supprime votre identifiant pour la télémétrie.
+
+`dom.ipc.plugins.flash.subprocess.crashreporter.enabled` **= false** : désactive la télémétrie.
+
+`toolkit.crashreporter.infoURL` **= blanc** : désactive la télémétrie.
+
 `app.normandy.enabled` **= false** : désactive la télémétrie.
 
 `app.normandy.first_run` **= false** : désactive la télémétrie.
