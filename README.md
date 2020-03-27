@@ -27,8 +27,6 @@ Tapez Google dans la barre de recherche et tout retirer (passez à false ou supp
 
 `browser.safebrowsing.downloads.remote.enabled` **= false** : désactive la mise à jour des listes de blocage.
 
-`browser.safebrowsing.downloads.remote.enabled` **= false** : désactive la mise à jour des listes de blocage.
-
 Safebrowing : vérifiez que les valeurs `*.enable` sont sur **false** et videz les champs avec des liens Google ou Mozilla.
 
 ![safebrowsing désactivé 1](https://raw.githubusercontent.com/kaliangel/firefox-about-config/master/safebrowsing1.png)
