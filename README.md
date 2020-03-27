@@ -48,10 +48,6 @@ Safebrowing : vérifiez que les valeurs `*.enable` sont sur **false** et videz l
 
 `network.prefetch-next` **= false** : désactive le préchargement des pages.
 
-`network.predictor.enabled` **= false** : désactive le préchargement.
-
-`network.predictor.cleaned-up` **= true** : désactive le préchargement.
-
 `browser.urlbar.speculativeConnect.enabled` **= false** : désactive le préchargement.
 
 `network.http.speculative-parallel-limit` **= 0** : désactive le préchargement.
