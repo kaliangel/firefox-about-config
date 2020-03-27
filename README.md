@@ -89,7 +89,7 @@ Faîtes pareil en tapant `report` (mais ne touchez pas aux liens de `extensions.
 
 `browser.search.geoSpecificDefaults.url` **= blanc**
 
-`browser.search.geoip.url` **= blanc** : désactive la géolocalisation.
+`browser.search.geoip.url` **= blanc** : lors de l'installation d'un moteur de recherche ou lors du premier démarrage Firefox détermine dans quel pays vous êtes afin de vous fournir la bonne version du moteur de recherche.
 
 ### Désactiver les notifications push
 
