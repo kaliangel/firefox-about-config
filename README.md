@@ -44,7 +44,7 @@ Safebrowing : vérifiez que les valeurs `*.enable` sont sur **false** et videz l
 
 ### Désactiver le préchargement
 
-`network.dns.disablePrefetch` **= true** : désactive le préchargement DNS des liens.
+`network.dns.disablePrefetch` **= true** : désactive le préchargement DNS des liens, si vous avez confiance en votre serveur DNS ne désactivez pas cette option utile à l'amélioration des performances.
 
 `network.prefetch-next` **= false** : désactive le préchargement des pages.
 
