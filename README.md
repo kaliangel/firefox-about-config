@@ -90,12 +90,10 @@ Faîtes pareil en tapant `report` (mais ne touchez pas aux liens de `extensions.
 ### Désactiver les notifications push
 
 
-Les notifications push permettent aux sites de vous envoyer des notifications même s'ils ne sont pas ouverts, si vous les y autorisez. Pour ce faire Mozilla utilises ses serveurs. Cela peut poser des problèmes de confidentialité. Voici comment le désactiver :
+Les notifications push permettent aux sites de vous envoyer des notifications même s'ils ne sont pas ouverts, si vous les y autorisez. Pour ce faire Mozilla utilise ses serveurs. Cela peut poser des problèmes de confidentialité. Voici comment le désactiver :
 
  - `dom.push.connection.enabled` **= false**
-
-- `dom.push.connection.enabled` **= false**
-
+ 
 - `dom.push.enabled` **= false**
 
 - `dom.push.serverURL` **= blanc** 
