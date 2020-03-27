@@ -127,8 +127,6 @@ Les notifications push permettent aux sites de vous envoyer des notifications m�
 
 `browser.startup.homepage_override.mstone` **= ignore** : empêche l'affichage de la page des nouveautés lors de la mise à jour vers une nouvelle version de Firefox.
 
-`browser.startup.homepage_override.buildID` **= blanc**
-
 `browser.newtabpage.activity-stream.feeds.snippets` **= false**
    
 `privacy.firstparty.isolate` **= true** : isole chacun de vos onglets.
