@@ -117,7 +117,7 @@ Les notifications push permettent aux sites de vous envoyer des notifications m�
 
 `webgl.disabled` **= true** : webGL pourrait être source de problèmes de sécurité. Peut casser certains sites.
 
-`network.captive-portal-service.enabled` **= false** : désactive la recherche de portail captif. C'est utilisé notamment pour se connecter aux réseaux WIFI publics.
+`network.captive-portal-service.enabled` **= false** : désactive la recherche de portail captif. C'est utilisé notamment pour se connecter aux réseaux Wi-Fi publics.
 
 `captivedetect.canonicalURL` **= blanc** : désactive la recherche de portails captifs.
 
