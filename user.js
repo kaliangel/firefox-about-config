@@ -280,7 +280,6 @@ user_pref("browser.search.geoip.url",				"");
 
 // Désactiver les notifications push
 
-
 // Les notifications push permettent aux sites de vous envoyer des notifications même s'ils ne sont pas ouverts, si vous les y autorisez. Pour ce faire Mozilla utilise ses serveurs. Cela peut poser des problèmes de confidentialité. Voici comment le désactiver :
 user_pref("dom.push.connection.enabled",				false);
 user_pref("dom.push.enabled",				false);
@@ -330,7 +329,9 @@ user_pref("network.IDN_show_punycode",				true);
 // Désactive WebRTC qui peut poser des problèmes de sécurité et de vie privée.
 user_pref("media.peerconnection.enabled",				false);
 
-// Performances
+/******************************************************************************
+ * Performances                                                               *
+ ******************************************************************************/
 
 // Active le cache mémoire (RAM). Pour tous les paramètres concernant le cache, pensez à activer le nettoyage automatique du cache à la fin de la session pour des raisons de confidentialité. Le mieux étant d'utiliser une extension comme cookies autodelete et d'activer le nettoyage automatique à la fermeture de l'onglet et au bout d'un intervalle d'une dizaine de secondes.
 user_pref("browser.cache.memory.enable",				true);
@@ -349,7 +350,9 @@ user_pref("network.dnsCacheExpiration",				"43200");
 // Mettre la même valeur que pour "network.dnsCacheExpiration".
 user_pref("network.dnsCacheExpirationGracePeriod",				"43200");
 
-// Pratique
+/******************************************************************************
+ * Pratique                                                                   *
+ ******************************************************************************/
 
 //Désactive la fermeture de Firefox lorsque vous fermez le dernier onglet.
 user_pref("browser.tabs.closeWindowWithLastTab",				false);
