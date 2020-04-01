@@ -189,7 +189,7 @@ user_pref("network.http.referer.trimmingPolicy",				"2");
 // Réduit la taille du referer.
 user_pref("network.http.referer.XOriginTrimmingPolicy",				"2");
 // N'envoie un referer que si vous venez du même site (si vous passez de qwant.com à qwant.com/maps Firefox informera que vous venez de qwant.com ; si vous passez de qwant.com à mozilla.org Firefox n'enverra pas de referer, mozilla.org ne saura d'où vous venez). Peut rendre l'empreinte du navigateur plus unique et donc plus facilement authentifiable. Mettez plutôt la valeur à 0 et activez "network.http.referer.spoofSource" 
-user_pref("network.http.referer.XOriginPolicy",				"2");
+user_pref("network.http.referer.XOriginPolicy",				"0");
 // Envoie comme referer le site que vous visitez, si vous visitez mozilla.org, Firefox enverra comme referer mozilla.org.
 user_pref("network.http.referer.spoofSource",				true);
 
