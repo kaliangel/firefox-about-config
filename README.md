@@ -99,7 +99,7 @@ Les notifications push permettent aux sites de vous envoyer des notifications m�
 
 `browser.cache.offline.enable` **= false** : désactive le cache hors-ligne, c'est pas terrible d'autoriser les sites à enregistrer tout et n'importe quoi sur votre ordi.
 
-`browser.cache.offline.capacity` **= 0** : désactive le cache hors=ligne.
+`browser.cache.offline.capacity` **= 0** : désactive le cache hors-ligne.
 
 `extensions.pocket.enabled` **= false** : désactive pocket. Si vous ne vous en servez pas autant le désactiver.
 
