@@ -56,12 +56,6 @@ Safebrowing : vérifiez que les valeurs `*.enable` sont sur **false** et videz l
 
 Tapez `telemetry` dans la barre de recherche, supprimez tous les liens et passez tout à `false`.
 
-`toolkit.telemetry.coverage.opt-out` **= true** : indique de ne pas vouloir faire partie de la numération des utilisateurs de Firefox.
-
-`toolkit.telemetry.rejected` **= true** : rejecte l´utilisation de le télémétrie via les outils dévellopeurs Firefox.
-
-`toolkit.telemetry.cachedClientID` **= blanc** : supprime votre identifiant pour la télémétrie.
-
 `dom.ipc.plugins.flash.subprocess.crashreporter.enabled` **= false** : désactive la télémétrie.
 
 `app.normandy.enabled` **= false** : désactive la télémétrie.
@@ -79,8 +73,6 @@ Tapez `telemetry` dans la barre de recherche, supprimez tous les liens et passez
 `geo.wifi.uri` **= blanc** : désactive la géolocalisation via énumération des points Wi-Fi.
 
 `geo.provider.network.url` **= blanc**
-
-`browser.search.geoip.url` **= blanc** : lors de l'installation d'un moteur de recherche ou lors du premier démarrage Firefox détermine dans quel pays vous êtes afin de vous fournir la bonne version du moteur de recherche.
 
 ### Désactiver les notifications push
 
@@ -113,7 +105,7 @@ Les notifications push permettent aux sites de vous envoyer des notifications m�
 
 `browser.send_pings.max_per_link` **= 0** : autorise 0 envoie de notification lors d'un clic sur la page.
 
-`dom.battery.enable` **= false** : empêche les sites de voir l'état de votre batterie.
+`dom.battery.enabled` **= false** : empêche les sites de voir l'état de votre batterie.
 
 `dom.event.clipboardevents.enabled` **= false** : empêche les sites de savoir lorsque vous coper un élément dans le presse-papier.
 
@@ -128,8 +120,6 @@ Les notifications push permettent aux sites de vous envoyer des notifications m�
 `layout.css.visited_links_enabled` **= false**
 
 `device.sensors.enabled` **= false**
-
-`browser.startup.homepage_override.mstone` **= ignore** : empêche l'affichage de la page des nouveautés lors de la mise à jour vers une nouvelle version de Firefox.
 
 `browser.newtabpage.activity-stream.feeds.snippets` **= false**
    
