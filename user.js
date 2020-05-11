@@ -181,6 +181,7 @@ user_pref("security.secure_connection_icon_color_gray", false); // remet le cade
 user_pref("accessibility.blockautorefresh", true); // bloque le rafraichissement automatique de la page.
 user_pref("dom.event.contextmenu.enabled", false); // empêche les sites de bloquer l'utilisation du clic-droit. 
 user_pref("browser.tabs.allowTabDetach", false); // désactive la possibilité de déplacer un onglet vers une nouvelle fenêtre en tirant dessus.
+user_pref("ui.SpellCheckerUnderlineStyle", 3); // créez cette entrée dans le about:config et mettez le nombre 3 afin que Firefox souligne les mots mal orthographiés au lieu de dessiner une petite vaguelette rouge.
 user_pref("full-screen-api.warning.timeout", 0); // Firefox affiche un popup lorsque vous passez en plein écran. Passer ce paramètre à 0 permet de ne plus afficher ce paramètre.
 
 /* Sources
