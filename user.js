@@ -150,7 +150,7 @@ user_pref("layout.css.visited_links_enabled", false);
 user_pref("device.sensors.enabled", false);
 user_pref("browser.newtabpage.activity-stream.feeds.snippets", false);
 user_pref("privacy.firstparty.isolate", true); // isole chacun de vos onglets.
-user_pref("network.IDN_show_punycode", true); // désactive le punycode.
+user_pref("network.IDN_show_punycode", true); // certains liens contiennent des caractères unicodes. Ceci donne de plus grandes possibilités pour l'hameçonnage. Ces caractères unicode sont ecnodés avec le code « punycode ». Activer ce paramètres force Firefox à afficher le punycode plutôt que le caractère unicode.
 user_pref("media.peerconnection.enabled", false); // désactive WebRTC qui peut poser des problèmes de sécurité et de vie privée.
 
 /* Performances                                                               
@@ -167,6 +167,7 @@ user_pref("browser.cache.disk.capacity", 512000); // taille du cache disque. Met
 user_pref("network.dnsCacheEntries", 4000); // nombre d'entrées du cache DNS. Pour des raisons de confidentialité, si quelqu'un peut avoir accès à votre ordinateur mettez ce nombre à 100.
 user_pref("network.dnsCacheExpiration", 43200); // temps avant expiration, nettoyage, d'une entrée présente dans le cache DNS (en secondes). Pour des raisons de confidentialité, si quelqu'un peut avoir accès à votre ordinateur laissez le nombre par défaut.
 user_pref("network.dnsCacheExpirationGracePeriod", 43200); // mettre la même valeur que pour "network.dnsCacheExpiration".
+user_pref("browser.sessionstore.interval", 60000); // Firefox sauvegarde toutes les 15 secondes vos onglets et leurs données. Ça lui permet en cas de plantage de restaurer votre session. Ici on fait passer de une sauvegarde toutes les 15 secondes (15 000 ms) à une sauvegarde toutes les 60 secondes (60 000 ms). Une sauvegarde par minute c'est largement suffisant et ça permet de diminuer les accès au disque fait par Firefox.
 
 /* Pratique  
 
@@ -180,6 +181,7 @@ user_pref("security.secure_connection_icon_color_gray", false); // remet le cade
 user_pref("accessibility.blockautorefresh", true); // bloque le rafraichissement automatique de la page.
 user_pref("dom.event.contextmenu.enabled", false); // empêche les sites de bloquer l'utilisation du clic-droit. 
 user_pref("browser.tabs.allowTabDetach", false); // désactive la possibilité de déplacer un onglet vers une nouvelle fenêtre en tirant dessus.
+user_pref("full-screen-api.warning.timeout", 0); // Firefox affiche un popup lorsque vous passez en plein écran. Passer ce paramètre à 0 permet de ne plus afficher ce paramètre.
 
 /* Sources
 
@@ -204,6 +206,8 @@ https://theprivacyguide1.github.io/about_config.html
 https://www.ghacks.net/overview-firefox-aboutconfig-security-privacy-preferences/
 
 https://librewolf-community.gitlab.io/
+
+https://lehollandaisvolant.net/?d=2020/01/02/11/28/39-ma-liste-des-tweaks-aboutconfig-dans-firefox
 
 Merci à eux !
 
