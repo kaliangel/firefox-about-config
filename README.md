@@ -169,6 +169,8 @@ Les notifications push permettent aux sites de vous envoyer des notifications m�
 
 `browser.tabs.allowTabDetach` **= false** : désactive la possibilité de déplacer un onglet vers une nouvelle fenêtre en tirant dessus.
 
+`ui.SpellCheckerUnderlineStyle` **= 3** : créez cette entrée dans le about:config et mettez le nombre 3 afin que Firefox souligne les mots mal orthographiés au lieu de dessiner une petite vaguelette rouge.
+
 `full-screen-api.warning.timeout` **= 0** : Firefox affiche un popup lorsque vous passez en plein écran. Passer ce paramètre à 0 permet de ne plus afficher ce paramètre.
 
 # Sources
