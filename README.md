@@ -125,7 +125,7 @@ Les notifications push permettent aux sites de vous envoyer des notifications m�
    
 `privacy.firstparty.isolate` **= true** : isole chacun de vos onglets.
 
-`network.IDN_show_punycode` **= true** : désactive le punycode.
+`network.IDN_show_punycode` **= true** : certains liens contiennent des caractères unicodes. Ceci donne de plus grandes possibilités pour l'hameçonnage. Ces caractères unicode sont ecnodés avec le code « punycode ». Activer ce paramètres force Firefox à afficher le punycode plutôt que le caractère unicode.
 
 
 `media.peerconnection.enabled` **= false** : désactive WebRTC qui peut poser des problèmes de sécurité et de vie privée.
@@ -151,6 +151,8 @@ Les notifications push permettent aux sites de vous envoyer des notifications m�
 
 `network.dnsCacheExpirationGracePeriod` **= 43200** : mettre la même valeur que pour "network.dnsCacheExpiration".
 
+`network.dnsCacheExpirationGracePeriod` **= 60000** : Firefox sauvegarde toutes les 15 secondes vos onglets et leurs données. Ça lui permet en cas de plantage de restaurer votre session. Ici on fait passer de une sauvegarde toutes les 15 secondes (15 000 ms) à une sauvegarde toutes les 60 secondes (60 000 ms). Une sauvegarde par minute c'est largement suffisant et ça permet de diminuer les accès au disque fait par Firefox.
+
 
 ## Pratique
 
@@ -166,6 +168,8 @@ Les notifications push permettent aux sites de vous envoyer des notifications m�
 `dom.event.contextmenu.enabled` **= false** : empêche les sites de bloquer l'utilisation du clic-droit. 
 
 `browser.tabs.allowTabDetach` **= false** : désactive la possibilité de déplacer un onglet vers une nouvelle fenêtre en tirant dessus.
+
+`ui.SpellCheckerUnderlineStyle` **= 3** : créez cette entrée dans le about:config et mettez le nombre 3 afin que Firefox souligne les mots mal orthographiés au lieu de dessiner une petite vaguelette rouge.
 
 
 # Sources
