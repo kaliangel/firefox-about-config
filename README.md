@@ -151,7 +151,7 @@ Les notifications push permettent aux sites de vous envoyer des notifications m�
 
 `network.dnsCacheExpirationGracePeriod` **= 43200** : mettre la même valeur que pour "network.dnsCacheExpiration".
 
-`network.dnsCacheExpirationGracePeriod` **= 60000** : Firefox sauvegarde toutes les 15 secondes vos onglets et leurs données. Ça lui permet en cas de plantage de restaurer votre session. Ici on fait passer de une sauvegarde toutes les 15 secondes (15 000 ms) à une sauvegarde toutes les 60 secondes (60 000 ms). Une sauvegarde par minute c'est largement suffisant et ça permet de diminuer les accès au disque fait par Firefox.
+`browser.sessionstore.interval` **= 60000** : Firefox sauvegarde toutes les 15 secondes vos onglets et leurs données. Ça lui permet en cas de plantage de restaurer votre session. Ici on fait passer de une sauvegarde toutes les 15 secondes (15 000 ms) à une sauvegarde toutes les 60 secondes (60 000 ms). Une sauvegarde par minute c'est largement suffisant et ça permet de diminuer les accès au disque fait par Firefox.
 
 
 ## Pratique
@@ -171,6 +171,7 @@ Les notifications push permettent aux sites de vous envoyer des notifications m�
 
 `ui.SpellCheckerUnderlineStyle` **= 3** : créez cette entrée dans le about:config et mettez le nombre 3 afin que Firefox souligne les mots mal orthographiés au lieu de dessiner une petite vaguelette rouge.
 
+`full-screen-api.warning.timeout` **= 0** : Firefox affiche un popup lorsque vous passez en plein écran. Passer ce paramètre à 0 permet de ne plus afficher ce paramètre.
 
 # Sources
 
@@ -194,5 +195,7 @@ https://theprivacyguide1.github.io/about_config.html
 https://www.ghacks.net/overview-firefox-aboutconfig-security-privacy-preferences/
 
 https://librewolf-community.gitlab.io/
+
+https://lehollandaisvolant.net/?d=2020/01/02/11/28/39-ma-liste-des-tweaks-aboutconfig-dans-firefox
 
 ***Merci à eux !***
