@@ -59,7 +59,7 @@ Tapez `telemetry` dans la barre de recherche, supprimez tous les liens et passez
 | `dom.ipc.plugins.flash.subprocess.crashreporter.enabled` | **false** | Désactive la télémétrie |
 | `app.normandy.enabled`                                   | **false** | Désactive la télémétrie |
 | `app.normandy.first_run`                                 | **false** | Désactive la télémétrie |
-| `app.normandy.api_url`                                   | **blanc** | désactive la télémétrie |
+| `app.normandy.api_url`                                   | **blanc** | Désactive la télémétrie |
 | `beacon.enabled`                                         | **false** | Désactive la télémétrie |
 
 ### Désactiver la géolocalisation
