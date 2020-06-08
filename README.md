@@ -60,9 +60,9 @@ Tapez `telemetry` dans la barre de recherche, supprimez tous les liens et passez
 
 | Attribut | Valeur | Description |
 | :-: | :-: | --- |
-| `geo.enabled`              | **false** | Désactive la géolocalisation |
-| `geo.wifi.uri`             | **blanc** | Désactive la géolocalisation via énumération des points Wi-Fi |
-| `geo.provider.network.url` | **blanc** | |
+| `geo.enabled`              | **false** | Désactive la géolocalisation. |
+| `geo.wifi.uri`             | **blanc** | Désactive la géolocalisation via énumération des points Wi-Fi. |
+| `geo.provider.network.url` | **blanc** | Désactive la géolocalisation. |
 
 ### Désactiver les notifications push
 
@@ -80,17 +80,16 @@ Les notifications push permettent aux sites de vous envoyer des notifications m�
 
 | Attribut | Valeur | Description |
 | :-: | :-: | --- |
-| `security.OCSP.enabled` | **0** | Désactive l'[OCSP](https://fr.wikipedia.org/wiki/Online_Certificate_Status_Protocol) |
-| `browser.cache.offline.enable` | **false** | Désactive le cache hors-ligne, c'est pas terrible d'autoriser les sites à enregistrer tout et n'importe quoi sur votre ordi |
-| `browser.cache.offline.capacity` | **0** | Désactive le cache hors-ligne |
-| `extensions.pocket.enabled` | **false** | Désactive pocket. Si vous ne vous en servez pas autant le désactiver |
+| `security.OCSP.enabled` | **0** | Désactive l'[OCSP](https://fr.wikipedia.org/wiki/Online_Certificate_Status_Protocol). |
+| `browser.cache.offline.enable` | **false** | Désactive le cache hors-ligne, c'est pas terrible d'autoriser les sites à enregistrer tout et n'importe quoi sur votre ordi. |
+| `browser.cache.offline.capacity` | **0** | Désactive le cache hors-ligne. |
+| `extensions.pocket.enabled` | **false** | Désactive pocket. Si vous ne vous en servez pas autant le désactiver. |
 | `extensions.pocket.api` | **blanc** | Désactive pocket.
-| `extensions.pocket.site` | **blanc** | Désactive pocket |
-| `extensions.pocket.oAuthConsumerKey` | **blanc** | Désactive pocket |
-| `browser.send_pings` | **false** | Désactive le pistage des cliques |
-| `browser.send_pings.max_per_link` | **0** | Autorise 0 envoie de notification lors d'un clic sur la page |
-| `dom.battery.enabled` | **false** | Empêche les sites de voir l'état de votre batterie |
-| `dom.event.clipboardevents.enabled` | **false** | Empêche les sites de savoir lorsque vous coper un élément dans le presse-papier |
+| `extensions.pocket.site` | **blanc** | Désactive pocket. |
+| `browser.send_pings` | **false** | Désactive le pistage des cliques. |
+| `browser.send_pings.max_per_link` | **0** | Autorise 0 envoie de notification lors d'un clic sur la page. |
+| `dom.battery.enabled` | **false** | Empêche les sites de voir l'état de votre batterie. |
+| `dom.event.clipboardevents.enabled` | **false** | Empêche les sites de savoir lorsque vous coper un élément dans le presse-papier. |
 | `media.navigator.enabled`| **false** | Empêche les sites de pister l'état du micro et de la caméra |
 | `webgl.disabled` | **true** | WebGL pourrait être source de problèmes de sécurité. Peut casser certains sites |
 | `network.captive-portal-service.enabled` | **false** | Désactive la recherche de portail captif. C'est utilisé notamment pour se connecter aux réseaux Wi-Fi publics |
