@@ -152,4 +152,6 @@ https://librewolf-community.gitlab.io/
 
 https://lehollandaisvolant.net/?d=2020/01/02/11/28/39-ma-liste-des-tweaks-aboutconfig-dans-firefox
 
+http://kb.mozillazine.org/
+
 ***Merci à eux !***
