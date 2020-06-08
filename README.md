@@ -14,31 +14,34 @@ Le but est aussi de recevoir des contributions et de discuter de ces paramètres
 
 ## Vie privée et sécurité
 
-### Dégoogliser Firefox
-
-Tapez Google dans la barre de recherche et tout retirer (passez à false ou supprimez les liens).
-![Mon about:config dégooglisé](https://raw.githubusercontent.com/kaliangel/firefox-about-config/master/google.png)
-
 ### Désactiver le Safe Browsing
 
 | Attribut | Valeur | Description |
 | :-: | :-: | --- |
-| `browser.safebrowsing.malware.enabled`          | **false** | Désactive le safebrowsing, fourni par Google   |
-| `browser.safebrowsing.phishing.enabled`         | **false** | Désactive le safebrowsing                      |
-| `browser.safebrowsing.downloads.remote.enabled` | **false** | Désactive la mise à jour des listes de blocage |
+| `browser.safebrowsing.malware.enabled`          | **false** | Désactive le safebrowsing, fourni par Google.   |
+| `browser.safebrowsing.phishing.enabled`         | **false** | Désactive le safebrowsing.                      |
+| `browser.safebrowsing.downloads.remote.enabled` | **false** | Désactive la mise à jour des listes de blocage. |
+| `browser.safebrowsing.provider.google.updateURL` | **blanc** | Désactive la mise à jour des listes de blocage. |
+| `browser.safebrowsing.provider.google4.updateURL` | **blanc** | Désactive la mise à jour des listes de blocage. |
+| `browser.safebrowsing.provider.google4.dataSharingURL` | **blanc** | Désactive le partage de données. |
+| `browser.safebrowsing.provider.google4.gethashURL` | **blanc** | Désactive le partage de données. |
+
+
+
 
 Safebrowing : vérifiez que les valeurs `*.enable` sont sur **false** et videz les champs avec des liens Google ou Mozilla.
 
 ![safebrowsing désactivé 1](https://raw.githubusercontent.com/kaliangel/firefox-about-config/master/safebrowsing1.png)
 ![safebrowsing désactivé 2](https://raw.githubusercontent.com/kaliangel/firefox-about-config/master/safebrowsing2.png)
 ![safebrowsing désactivé 3](https://raw.githubusercontent.com/kaliangel/firefox-about-config/master/safebrowsing3.png)
+
 ### Gestion du referer
 
 | Attribut | Valeur | Description |
 | :-: | :-: | --- |
-| `network.http.referer.trimmingPolicy`        | **2**    | Réduit la taille du referer (info donnant le lien d'où vous venez) |
-| `network.http.referer.XOriginTrimmingPolicy` | **2**    | Réduit la taille du referer |
-| `network.http.referer.XOriginPolicy`         | **2**    | N'envoie un referer que si vous venez du même site (si vous passez de qwant.com à qwant.com/maps Firefox informera que vous venez de qwant.com ; si vous passez de qwant.com à mozilla.org Firefox n'enverra pas de referer, mozilla.org ne saura d'où vous venez). Peut rendre l'empreinte du navigateur plus unique et donc plus facilement authentifiable. Mettez plutôt la valeur à 0 et activez "network.http.referer.spoofSource" |
+| `network.http.referer.trimmingPolicy`        | **0**   | Réduit la taille du referer (info donnant le lien d'où vous venez) |
+| `network.http.referer.XOriginTrimmingPolicy` | **0**    | Réduit la taille du referer |
+| `network.http.referer.XOriginPolicy`         | **0**    | N'envoie un referer que si vous venez du même site (si vous passez de qwant.com à qwant.com/maps Firefox informera que vous venez de qwant.com ; si vous passez de qwant.com à mozilla.org Firefox n'enverra pas de referer, mozilla.org ne saura d'où vous venez). Peut rendre l'empreinte du navigateur plus unique et donc plus facilement authentifiable. Mettez plutôt la valeur à 0 et activez "network.http.referer.spoofSource" |
 | `network.http.referer.spoofSource`           | **true** | Envoie comme referer le site que vous visitez, si vous visitez mozilla.org, Firefox enverra comme referer mozilla.org |
 
 ### Désactiver le préchargement
