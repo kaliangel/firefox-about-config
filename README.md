@@ -47,11 +47,13 @@ Tapez `telemetry` dans la barre de recherche, supprimez tous les liens et passez
 
 | Attribut | Valeur | Description |
 | :-: | :-: | --- |
-| `dom.ipc.plugins.flash.subprocess.crashreporter.enabled` | **false** | Désactive la télémétrie |
-| `app.normandy.enabled`                                   | **false** | Désactive la télémétrie |
-| `app.normandy.first_run`                                 | **false** | Désactive la télémétrie |
-| `app.normandy.api_url`                                   | **blanc** | Désactive la télémétrie |
-| `beacon.enabled`                                         | **false** | Désactive la télémétrie |
+| `toolkit.telemetry.enabled` | **false** | Désactive la télémétrie. |
+| `toolkit.telemetry.server` | **blanc** | Désactive la télémétrie. |
+| `dom.ipc.plugins.flash.subprocess.crashreporter.enabled` | **false** | Désactive la télémétrie. |
+| `app.normandy.enabled`                                   | **false** | Désactive la télémétrie. |
+| `app.normandy.first_run`                                 | **false** | Désactive la télémétrie. |
+| `app.normandy.api_url`                                   | **blanc** | Désactive la télémétrie. |
+| `beacon.enabled`                                         | **false** | Désactive la télémétrie. |
 
 ### Désactiver la géolocalisation
 
