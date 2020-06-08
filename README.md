@@ -26,15 +26,6 @@ Le but est aussi de recevoir des contributions et de discuter de ces paramètres
 | `browser.safebrowsing.provider.google4.dataSharingURL` | **blanc** | Désactive le partage de données. |
 | `browser.safebrowsing.provider.google4.gethashURL` | **blanc** | Désactive le partage de données. |
 
-
-
-
-Safebrowing : vérifiez que les valeurs `*.enable` sont sur **false** et videz les champs avec des liens Google ou Mozilla.
-
-![safebrowsing désactivé 1](https://raw.githubusercontent.com/kaliangel/firefox-about-config/master/safebrowsing1.png)
-![safebrowsing désactivé 2](https://raw.githubusercontent.com/kaliangel/firefox-about-config/master/safebrowsing2.png)
-![safebrowsing désactivé 3](https://raw.githubusercontent.com/kaliangel/firefox-about-config/master/safebrowsing3.png)
-
 ### Gestion du referer
 
 | Attribut | Valeur | Description |
@@ -45,10 +36,10 @@ Safebrowing : vérifiez que les valeurs `*.enable` sont sur **false** et videz l
 
 | Attribut | Valeur | Description |
 | :-: | :-: | --- |
-| `network.dns.disablePrefetch`               | **true**  | Désactive le préchargement DNS des liens, si vous avez confiance en votre serveur DNS ne désactivez pas cette option utile à l'amélioration des performances |
-| `network.prefetch-next`                     | **false** | Désactive le préchargement des pages |
-| `browser.urlbar.speculativeConnect.enabled` | **false** | Désactive le préchargement |
-| `network.http.speculative-parallel-limit`   | **0**     | Désactive le préchargement |
+| `network.dns.disablePrefetch`               | **true**  | Désactive le préchargement DNS des liens, si vous avez confiance en votre serveur DNS ne désactivez pas cette option utile à l'amélioration des performances. |
+| `network.prefetch-next`                     | **false** | Désactive le préchargement des pages. |
+| `browser.urlbar.speculativeConnect.enabled` | **false** | Désactive le préchargement dans la barre « intelligente » de Firefox. |
+| `network.http.speculative-parallel-limit`   | **0**     | Désactive le préchargement. |
 
 ### Désactiver la télémétrie
 
