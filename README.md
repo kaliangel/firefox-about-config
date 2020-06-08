@@ -30,7 +30,7 @@ Le but est aussi de recevoir des contributions et de discuter de ces paramètres
 
 | Attribut | Valeur | Description |
 | :-: | :-: | --- |
-| `network.http.referer.spoofSource`           | **true** | Envoie comme referer le site que vous visitez, si vous visitez mozilla.org, Firefox enverra comme referer mozilla.org |
+| `network.http.referer.spoofSource`           | **true** | Envoie comme referer le site que vous visitez, si vous visitez mozilla.org, Firefox enverra comme referer mozilla.org. |
 
 ### Désactiver le préchargement
 
@@ -90,16 +90,16 @@ Les notifications push permettent aux sites de vous envoyer des notifications m�
 | `browser.send_pings.max_per_link` | **0** | Autorise 0 envoie de notification lors d'un clic sur la page. |
 | `dom.battery.enabled` | **false** | Empêche les sites de voir l'état de votre batterie. |
 | `dom.event.clipboardevents.enabled` | **false** | Empêche les sites de savoir lorsque vous coper un élément dans le presse-papier. |
-| `media.navigator.enabled`| **false** | Empêche les sites de pister l'état du micro et de la caméra |
-| `webgl.disabled` | **true** | WebGL pourrait être source de problèmes de sécurité. Peut casser certains sites |
-| `network.captive-portal-service.enabled` | **false** | Désactive la recherche de portail captif. C'est utilisé notamment pour se connecter aux réseaux Wi-Fi publics |
-| `captivedetect.canonicalURL` | **blanc** | Désactive la recherche de portails captifs |
-| `layout.css.visited_links_enabled` | **false** | |
+| `media.navigator.enabled`| **false** | Empêche les sites de pister l'état du micro et de la caméra. |
+| `webgl.disabled` | **true** | WebGL pourrait être source de problèmes de sécurité. Peut casser certains sites. |
+| `network.captive-portal-service.enabled` | **false** | Désactive la recherche de portail captif. C'est utilisé notamment pour se connecter aux réseaux Wi-Fi publics. |
+| `captivedetect.canonicalURL` | **blanc** | Désactive la recherche de portails captifs. |
+| `layout.css.visited_links_enabled` | **false** |[Trop long à expliquer](https://hacks.mozilla.org/2010/03/privacy-related-changes-coming-to-css-vistited/).|
 | `device.sensors.enabled` | **false** | |
-| `browser.newtabpage.activity-stream.feeds.snippets` | **false** | |
-| `privacy.firstparty.isolate` | **true** | Isole chacun de vos onglets |
-| `network.IDN_show_punycode` | **true** | Certains liens contiennent des caractères unicodes. Ceci donne de plus grandes possibilités pour l'hameçonnage. Ces caractères unicode sont ecnodés avec le code « punycode ». Activer ce paramètres force Firefox à afficher le punycode plutôt que le caractère unicode |
-| `media.peerconnection.enabled` | **false** | Désactive WebRTC qui peut poser des problèmes de sécurité et de vie privée |
+| `browser.newtabpage.activity-stream.feeds.snippets` | **false** | Désactive l'affichage des snippets, ou « brèves » en Français, de Mozilla. Firefox contacte les serveurs de Mozilla pour les afficher. |
+| `privacy.firstparty.isolate` | **true** | Isole chacun de vos onglets. |
+| `network.IDN_show_punycode` | **true** | Certains liens contiennent des caractères unicodes. Ceci donne de plus grandes possibilités pour l'hameçonnage. Ces caractères unicode sont ecnodés avec le code « punycode ». Activer ce paramètres force Firefox à afficher le punycode plutôt que le caractère unicode. |
+| `media.peerconnection.enabled` | **false** | Désactive WebRTC qui peut poser des problèmes de sécurité et de vie privée, comme révéler votre adresse IP. |
 
 ## Performances
 
