@@ -103,6 +103,8 @@ Les notifications push permettent aux sites de vous envoyer des notifications m�
 
 ## Performances
 
+**Je dois mener des investigations plus poussées sur l'impact réel de la modification de ces paramètres ; je le laisses dans ce guide à titre informatif mais si vous ne savez pas ce que vous faites ne les modifiez pas. Merci. Bisous.**
+
 | Attribut | Valeur | Description |
 | :-: | :-: | --- |
 | `browser.cache.memory.enable` | **true** | Active le cache mémoire (RAM). Pour tous les paramètres concernant le cache, pensez à activer le nettoyage automatique du cache à la fin de la session pour des raisons de confidentialité. Le mieux étant d'utiliser une extension comme cookies autodelete et d'activer le nettoyage automatique à la fermeture de l'onglet et au bout d'un intervalle d'une dizaine de secondes. |
@@ -110,8 +112,8 @@ Les notifications push permettent aux sites de vous envoyer des notifications m�
 | `browser.cache.memory.max_entry_size` | **-1** | Mettre -1 pour supprimer toute limite de taille. |
 | `browser.cache.disk.enable` | **true** | Autorise l'utilisation du cache disque. Pour des raisons de confidentialité désactiver le cache disque au profit du cache mémoire peut être une bonne chose ; cela permet de s'assurer qu'aucune donnée n'est enregistrée sur votre ordinateur à la fermeture de Firefox. |
 | `browser.cache.disk.capacity` | **512000** | Taille du cache disque. |
-| `network.dnsCacheEntries` | **4000** | Nombre d'entrées du cache DNS. Pour des raisons de confidentialité, si quelqu'un peut avoir accès à votre ordinateur laisser le paramètre par défaut. **Je dois mener des investigations plus poussées sur l'impact réel de la modification de ce paramètre ; je le laisse dans ce guide à titre informatif mais si vous ne savez pas ce que vous faites ne le modifiez pas.** |
-| `network.dnsCacheExpiration` | **43200** | Temps avant expiration, nettoyage, d'une entrée présente dans le cache DNS (en secondes). Pour des raisons de confidentialité, si quelqu'un peut avoir accès à votre ordinateur laissez le nombre par défaut. **Je dois mener des investigations plus poussées sur l'impact réel de la modification de ce paramètre ; je le laisse dans ce guide à titre informatif mais si vous ne savez pas ce que vous faites ne le modifiez pas.** |
+| `network.dnsCacheEntries` | **4000** | Nombre d'entrées du cache DNS. Pour des raisons de confidentialité, si quelqu'un peut avoir accès à votre ordinateur laisser le paramètre par défaut. |
+| `network.dnsCacheExpiration` | **43200** | Temps avant expiration, nettoyage, d'une entrée présente dans le cache DNS (en secondes). Pour des raisons de confidentialité, si quelqu'un peut avoir accès à votre ordinateur laissez le nombre par défaut. |
 | `network.dnsCacheExpirationGracePeriod` | **43200** | Mettre la même valeur que pour `network.dnsCacheExpiration`. |
 | `browser.sessionstore.interval` | **60000** | Firefox sauvegarde toutes les 15 secondes vos onglets et leurs données. Ça lui permet en cas de plantage de restaurer votre session. Ici on fait passer de une sauvegarde toutes les 15 secondes (15 000 ms) à une sauvegarde toutes les 60 secondes (60 000 ms). Une sauvegarde par minute c'est largement suffisant et ça permet de diminuer les accès au disque fait par Firefox. |
 
