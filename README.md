@@ -100,6 +100,8 @@ Les notifications push permettent aux sites de vous envoyer des notifications m�
 | `privacy.firstparty.isolate` | **true** | Isole chacun de vos onglets. |
 | `network.IDN_show_punycode` | **true** | Certains liens contiennent des caractères unicodes. Ceci donne de plus grandes possibilités pour l'hameçonnage. Ces caractères unicode sont encodés avec le code « punycode ». Activer ce paramètres force Firefox à afficher le punycode plutôt que le caractère unicode. |
 | `media.peerconnection.enabled` | **false** | Désactive WebRTC qui peut poser des problèmes de sécurité et de vie privée, comme révéler votre adresse IP. |
+| `signon.autofillForms` | **false** | Désactive le remplissage automatique des identifiants. |
+
 
 ## Performances
 
@@ -155,5 +157,7 @@ https://librewolf-community.gitlab.io/
 https://lehollandaisvolant.net/?d=2020/01/02/11/28/39-ma-liste-des-tweaks-aboutconfig-dans-firefox
 
 http://kb.mozillazine.org/
+
+https://www.malekal.com/mozilla-firefox-les-reglages-ultimes-anti-tracking-et-contre-le-pistage/
 
 ***Merci à eux !***
