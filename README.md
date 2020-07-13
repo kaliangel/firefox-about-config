@@ -20,6 +20,7 @@ Le but est aussi de recevoir des contributions et de discuter de ces paramètres
 | :-: | :-: | --- |
 | `browser.safebrowsing.malware.enabled`          | **false** | Désactive le safebrowsing, fourni par Google.   |
 | `browser.safebrowsing.phishing.enabled`         | **false** | Désactive le safebrowsing.                      |
+| `browser.safebrowsing.blockedURIs.enabled`         | **false** | Désactive le safebrowsing.                      |
 | `browser.safebrowsing.downloads.remote.enabled` | **false** | Désactive la mise à jour des listes de blocage. |
 | `browser.safebrowsing.provider.google.updateURL` | **blanc** | Désactive la mise à jour des listes de blocage. |
 | `browser.safebrowsing.provider.google4.updateURL` | **blanc** | Désactive la mise à jour des listes de blocage. |
