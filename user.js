@@ -20,6 +20,7 @@ Donc n'hésitez pas à contribuer, en ouvrant par exemple une issue.
 
 user_pref("browser.safebrowsing.malware.enabled", false); // Désactive le safebrowsing, fourni par Google.
 user_pref("browser.safebrowsing.phishing.enabled", false); // Désactive le safebrowsing.
+user_pref("browser.safebrowsing.blockedURIs.enabled", false); // Désactive le safebrowsing.
 user_pref("browser.safebrowsing.downloads.remote.enabled", false); // Désactive la mise à jour des listes de blocage.
 user_pref("browser.safebrowsing.provider.google.updateURL", ""); // Désactive la mise à jour des listes de blocage.
 user_pref("browser.safebrowsing.provider.google4.updateURL", ""); // Désactive la mise à jour des listes de blocage.
@@ -120,6 +121,7 @@ user_pref("browser.newtabpage.activity-stream.feeds.snippets", false); // Désac
 user_pref("privacy.firstparty.isolate", true); // Isole chacun de vos onglets.
 user_pref("network.IDN_show_punycode", true); // Certains liens contiennent des caractères unicodes. Ceci donne de plus grandes possibilités pour l'hameçonnage. Ces caractères unicode sont encodés avec le code « punycode ». Activer ce paramètres force Firefox à afficher le punycode plutôt que le caractère unicode.
 user_pref("media.peerconnection.enabled", false); // Désactive WebRTC qui peut poser des problèmes de sécurité et de vie privée, comme révéler votre adresse IP.
+user_pref("signon.autofillForms", false); //Désactive le remplissage automatique des identifiants.
 
 // Performances
 
@@ -177,6 +179,8 @@ https://librewolf-community.gitlab.io/
 https://lehollandaisvolant.net/?d=2020/01/02/11/28/39-ma-liste-des-tweaks-aboutconfig-dans-firefox
 
 http://kb.mozillazine.org/
+
+https://www.malekal.com/mozilla-firefox-les-reglages-ultimes-anti-tracking-et-contre-le-pistage/
 
 Merci à eux !
 
