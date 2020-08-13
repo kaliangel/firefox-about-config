@@ -122,6 +122,7 @@ user_pref("privacy.firstparty.isolate", true); // Isole chacun de vos onglets.
 user_pref("network.IDN_show_punycode", true); // Certains liens contiennent des caractères unicodes. Ceci donne de plus grandes possibilités pour l'hameçonnage. Ces caractères unicode sont encodés avec le code « punycode ». Activer ce paramètres force Firefox à afficher le punycode plutôt que le caractère unicode.
 user_pref("media.peerconnection.enabled", false); // Désactive WebRTC qui peut poser des problèmes de sécurité et de vie privée, comme révéler votre adresse IP.
 user_pref("signon.autofillForms", false); //Désactive le remplissage automatique des identifiants.
+user_pref("network.security.esni.enabled", true); //Active la prise en charge de l'esni.
 
 // Performances
 
