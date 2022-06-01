@@ -1,4 +1,8 @@
-﻿
+# Ce projet n'est plus maintenu et les informations qu'il contient ne sont plus pertinentes. Si vous désirez des informations fiables sur la configuration de Firefox je vous conseil d'aller voir le projet [Arkenfox](https://github.com/arkenfox/user.js).
+
+---
+
+
 # Introduction
 
 Voici ma liste des paramètres à modifier dans le menu about:config de Firefox.
